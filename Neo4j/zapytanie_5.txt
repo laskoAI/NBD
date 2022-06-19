@@ -1,3 +1,0 @@
-MATCH (matrix)-[:ACTED_IN]-(actorsthatplayedinmatrix)-[:ACTED_IN]-(movieswithactorsfrommatrix)
-WHERE matrix.title contains "Matrix"
-RETURN movieswithactorsfrommatrix

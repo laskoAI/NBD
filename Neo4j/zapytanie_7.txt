@@ -1,3 +1,0 @@
-MATCH (author)-[:WROTE]-(movie:Movie)-[:DIRECTED]-(director)
-WHERE author.name = director.name
-RETURN author
